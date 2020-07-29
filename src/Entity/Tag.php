@@ -36,7 +36,7 @@ class Tag
     /**
      * @ORM\ManyToMany(targetEntity=Article::class, mappedBy="tags")
      * @ApiSubresource
-     * @Groups("article:read")
+     *
      */
     private $articles;
 
